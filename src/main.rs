@@ -57,13 +57,13 @@ impl Signature {
 }
 
 fn print_menu() {
-    println!("********************* Rust Rsa *********************");
-    println!("* 1. Creación de llaves.");
-    println!("* 2. Cifrar mensaje.");
-    println!("* 3. Descifrar mensajes.");
-    println!("* 4. Firma digital.");
-    println!("* 5. Verificar firma.");
-    println!("* 6. Salir.");
+    println!("********************* Rust RSA *********************");
+    println!("* 1. Creación de llaves (KeyPair)");
+    println!("* 2. Cifrar mensaje");
+    println!("* 3. Descifrar mensajes");
+    println!("* 4. Firma digital");
+    println!("* 5. Verificar firma");
+    println!("* 6. Salir");
     println!("****************************************************");
 }
 
